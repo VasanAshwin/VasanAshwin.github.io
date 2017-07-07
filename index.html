@@ -1,0 +1,399 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ashwin Vasan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon">
+								<img src="images/imgFromPrev.jpg" style="width:100%; border-radius:50%; ">
+							</span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Ashwin Vasan</h1>
+								<p>I received a B.Tech in Computer Science from VIT University and <br />
+								 am currently working as a Computer Vision Scientist at DataKind</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Work</a></li>
+								<li><a href="#work">Blog</a></li>
+								<li><a href="#about">Seminar</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Work -->
+							<article id="intro">
+								<h2 class="major">Work</h2>
+								<h4 class="major">GTA DeepDrive</h4>
+								<span class="image main"><img src="images/GTA_work.jpg" alt="" /></span>
+								<p>A Self-Driving AI bot that travels from Point A to Point B using only the visual input from the car camera’s perspective. GTA 5 has a large sophisticated urban environment for the model to learn autonomous driving at zero risks and cost.</p>
+								<p>A fine-tuned Inception model was obtained by training It on 50GB of training data, which was collected by driving around different landscapes within the game. The bot controls the car by using a PS4 controller which gives more degrees of freedom in terms of movement. Accuracy was improved by using Data Augmentation, ELU and BatchNorm. Currently exploring recurrent architectures to capture acceleration as a function of time.</p>
+								<br />
+
+								<h4 class="major">UPC Segmentation</h4>
+								<span class="image main"><img src="images/Segmentation_work.jpg" alt="" /></span>
+								<p>As a part of DataKind’s collaboration with the Australian NGO Pollinate Energy, an automated system to track Urban Poor Communities(UPC) across Bangalore had to be built in order to approach and help the people living in these said settlements. </p>
+								<p>We collected real-time satellite data from the Mapbox API and created masks to train a U-Net model to run semantic segmentation on the satellite images. We arrived at this model through a series of trial and errors which provided interesting insights. Click here for more details.</p>
+								<br />
+
+								<h4 class="major">3D Reconstruction</h4>
+								<span class="image main"><img src="images/3Dmodel_work.jpg" alt="" /></span>
+								<p>Real-time Scene Reconstruction with any Android device. Using Unity 3D game engine, a prototype of an Android application was developed which captures a video using the mobile camera and predict a depth map in real time. This information is fed to the UnityScript which then creates a 3D world out of this. The movement, position and rotation of the mobile device is factored in the calculation while building the three dimensional world. This is an ongoing project and efforts are being made to improve the quality of the resulting 3D world. </p>
+								<br />
+
+								<h4 class="major">Android Captions</h4>
+								<span class="image main"><img src="images/Captions_work.jpg" alt="" /></span>
+								<p>Built an Image Captioning system as an application that works real time on an Android smartphone. Inspired from Neural Talk 2, this networks runs live on the mobile device and uses Google’s MobileNet implementation to provide good accuracy while keeping the network computational demands relatively cheaper through intelligent convolutional operations and architecture.</p>
+								<p>The final model is able to reach a negligible 50mb, made possible by techniques like Deep Compression, and is able to give real-time results. Source code will be made available soon.</p>
+								<br />
+
+								<h4 class="major">Super Mario Bot</h4>
+								<span class="image main"><img src="images/Mario_work.jpg" alt="" /></span>
+								<p>Recreated the first four levels of the Nintendo classic using the PyGame python game development package. The game playing bot was created by implementing the NeuroEvolution of Augmenting Topologies(NEAT) algorithm. The algorithm took a total of 72 hours of training to solve the four different worlds.</p>
+								
+							</article>
+
+						<!-- Blog -->
+							<article id="work">
+								<h2 class="major">Blog</h2>
+								<h4 class="major">Tracking Urban Poor Communities Using Satellite Images</h4>
+								<span class="image main"><img src="images/Segmentation_work.jpg" alt="" /></span>
+								<p>In this post, we'll go into details about the techiques that work best when it comes to working with satellite images. We'll analyze the models that are used for segmentation and see some awesome results. <a href="retrospect/generic.html">Click here!</a> </p>
+
+							</article>
+
+						<!-- Seminar -->
+							<article id="about">
+								<h2 class="major">Seminar</h2>
+								<h4 class="major">Deep Learning For Computer Vision</h4>
+								<span class="image main"><img src="images/3Dworld_seminar.jpg" alt="" /></span>
+								<p>Exploring the basics of Machine Learning from simple classifiers to complex gradient boosting algorithms, this workshop gives students a glimpse into the complicated prediction models behind various Computer Vision problem statements. Convolutional Neural Networks has been covered in detail, right from its inception in 1998 with Yann Lecun's revolutionary paper all the way up to the ImageNet 2015 winning architechture 'ResNet'.</p>
+								<p>10 Sept 2016<br />
+								Rating: 4.7/5<br />
+								Attended: 150</p>
+								<br />
+								<br />
+								<h4 class="major">$100 Million Machine Learning Start Up</h4>
+								<span class="image main"><img src="images/Acquisitions_seminar.jpg" alt="" /></span>
+								<p>A seminar to put light on the current landscape of Machine Learning startups. We group these startups into the following fields: Platform, Product, Team and Data. Finally, we get to decode some of the work done by these startups and explore how intelligent statistics can be applied to solve the toughest problems. Slides available <a href="https://github.com/VasanAshwin/Workshop-Data/blob/master/100%20Million%20ML%20startup.pptx">here</a>.</p>
+								<p>15 April 2017<br />
+								Rating: 4.5/5<br />
+								Attended: 120</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions vertical">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button special">Special</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button special icon fa-download">Icon</a></li>
+										<li><a href="#" class="button icon fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button special disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="field half first">
+											<label for="demo-name">Name</label>
+											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+										</div>
+										<div class="field half">
+											<label for="demo-email">Email</label>
+											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+										</div>
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+										</div>
+										<div class="field half first">
+											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+											<label for="demo-priority-low">Low</label>
+										</div>
+										<div class="field half">
+											<input type="radio" id="demo-priority-high" name="demo-priority">
+											<label for="demo-priority-high">High</label>
+										</div>
+										<div class="field half first">
+											<input type="checkbox" id="demo-copy" name="demo-copy">
+											<label for="demo-copy">Email me a copy</label>
+										</div>
+										<div class="field half">
+											<input type="checkbox" id="demo-human" name="demo-human" checked>
+											<label for="demo-human">Not a robot</label>
+										</div>
+										<div class="field">
+											<label for="demo-message">Message</label>
+											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright"></p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
